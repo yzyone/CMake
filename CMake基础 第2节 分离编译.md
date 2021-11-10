@@ -93,6 +93,7 @@ int main(int argc, char *argv[])
 
 CMake 语法指定了许多变量，这些变量可用于帮助在项目或源代码树中找到有用的目录。其中一些包括：
 
+```
 变量	信息
 CMAKE_SOURCE_DIR	根源目录
 CMAKE_CURRENT_SOURCE_DIR	如果使用子项目和目录，则为当前源目录。
@@ -100,6 +101,7 @@ PROJECT_SOURCE_DIR	当前 cmake 项目的源目录。
 CMAKE_BINARY_DIR	根二进制文件生成目录。这是运行cmake命令的目录。
 CMAKE_CURRENT_BINARY_DIR	你当前所处的生成目录。
 PROJECT_BINARY_DIR	当前项目的生成目录。
+```
 
 **源文件变量**
 
